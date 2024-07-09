@@ -1,16 +1,17 @@
 #include <iostream>
 #include "turret.h"
+#include "target.h"
 using namespace std;
 int main(){
 
 Turret test1;
-test1.setnewx(4.0);
-test1.setnewy(4.0);
 
-cout<<test1.getx()<<endl;
+test1.settargetx(5.6);
+test1.settargety(4.2);
+cout<<"bang bang ! at"<<test1.rotation_angle()<<endl;
 
 
-cout<<test1.rotation_angle()<<endl;
+
 
  
   return 0;
