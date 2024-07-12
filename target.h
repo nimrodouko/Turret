@@ -17,9 +17,13 @@ void settargetx(double xmpya){
 void settargety(double ympya){
     targety = ympya;
 }
+void settargetz(double zmpya){
+    targetz = zmpya;
+}
 
 double targetx;
 double targety;
+double targetz;
 
 };
 #endif
